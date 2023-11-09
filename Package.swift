@@ -5,9 +5,6 @@ import PackageDescription
 
 let package = Package(
     name: "ESTabBarController",
-    platforms: [
-        .iOS(.v8),
-    ],
     products: [
         .library(name: "ESTabBarController",  targets: ["ESTabBarController"])
     ],
